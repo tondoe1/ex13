@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			ul li{ width: 85px;
+			float: right;
+			text-align: center;
+			border:1px solid white;
+			background-color: black;
+			opacity: 0.8;
+			font-family: arial;
+			padding: 7px;
+			margin-right: 33px;
+		}
+			ul li a{ text-decoration:none; color: white;}
+			ul li:hover{background-color: #00A0FF}
+			
+			h1{ position: right;
+			color: white;
+			font-size: 34px;
+			font-family: arial;
+			text-shadow: 1px 1px 1px;
+			-webkit-text-stroke: 1.85px black;
+			}
+			
+			.item1 { grid-area: one; }
+			.item2 { grid-area: two; }
+			.item3 { grid-area: three; }
+			.item4 { grid-area: four; }
+
+			.grid-container {
+				display: grid;
+				column-gap: 50px;
+				grid-template-columns: auto auto auto;
+				gap: 10px;
+				background-color: #000000;
+				padding: 10px;
+			}
+
+			.grid-container > div {
+				background-color: rgba(255, 255, 255, 0.8);
+				text-align: center;
+				padding: 20px 0;
+				font-size: 30px;
+			}
+
+			.item1 {
+				grid-row-start: 1;
+				grid-row-end: 20;
+			}
+
+			.item2 {
+   
+			}
+
+			.item3 {
+   
+			}
+
+			.item4 {
+    
+			}
+
+			</style>
+		<!--
+			Author: Dylan Cox
+			Date: Sept, 13, 2022
+		-->
+		<meta charset="UTF-8" />
+		<link href="portfolio_layout.css" rel="layoutsheet">
+		<title>Dylan's Resume Page</title>
+	</head>
+	
+	<body style="background-color:rgb(209, 190, 190);">
+		<ul type="none">
+		<li> <a href="file:///C:/Users/trvpn/Desktop/WebD1000/Exercises/ex3-tondoe1/index.html">Home</a></li>
+		<header>
+			<h1>Welcome! This is the Resume section of my page.</h1>
+		</header>
+		<div class="grid-container">
+			<div class="grid-item1">one</div>
+			<div class="grid-item2">two</div>
+			<div class="grid-item3">three</div>
+			<div class="grid-item4">four</div>
+		</div>
+	</body>
+</html>

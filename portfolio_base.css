@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Author: Dylan Cox
+   Date: September, 23, 2022
+*/
+
+body{ background-color:aqua;
+}
+
+h1{
+    font-family: "Verdana";
+}

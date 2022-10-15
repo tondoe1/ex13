@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*
+    Author: Dylan Cox
+    October 4, 2022
+/*
+
+
+/* Grid Rules */
+
+
+.item1 {
+    grid-row-start: 1;
+    grid-row-end: 20;
+}
+
+.item2 {
+   
+}
+
+.item3 {
+   
+}
+
+.item4{
+    
+}
